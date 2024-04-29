@@ -5,317 +5,157 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero 
         span 2
-      h1 Máquinas, herramientas y equipos para la siembra
+      h1 Propiedades del suelo 
 
-    p.mb-3 Las actividades de alistamiento del proceso de siembra involucran la selección de la maquinaria, equipos y herramientas que son esenciales para el desarrollo óptimo de la siembra, por lo cual, es importante establecer:
+    .row.align-items-center.justify-content-center.mb-2
+      .col-7.col-lg-5(data-aos="fade-right")
+        img.mt-3(src='@/assets/curso/images/tema2/img_4.png'  alt='')
+      .col-lg-7(data-aos="fade-left") 
+        .col-lg-10.bg-color-1.px-5.py-2
+          .h3.mx-2.mb-0 El suelo:
+        p.mb-3 Recurso natural no renovable, el cual está compuesto por sustancias sólidas (materia orgánica, organismos y minerales), agua y aire. No obstante, la cantidad en la que se encuentran estos componentes en el suelo son los que le confieren las propiedades físicas, químicas y biológicas.
+        
+        .col-lg-10.bg-color-1.px-5.py-2
+          .h3.mx-2.mb-0 Productividad del suelo:
+        p.mb-3 Depende del contenido de nutrientes disponibles y del conjunto de otras características físicas, pues el crecimiento de las partes aéreas necesita en gran medida del desarrollo de la raíz, el cual está influenciado por el balance de humedad, y aireación del suelo.
+        
+        .col-lg-10.bg-color-1.px-5.py-2
+          .h3.mx-2.mb-0 Las propiedades físicas del suelo:
+        p.mb-3 Son el resultado de la interacción entre las distintas fases (suelo, agua y aire) y la cantidad en que se encuentran cada una de ellas, pues la condición física del suelo determina la capacidad de sostenimiento, habilidad para penetrar las raíces, circulación de aire, almacenamiento de agua, drenaje, retención de nutrientes (macro y micro nutrientes).
+      
+    Separador
+    
+    #t_2_1.titulo-segundo
+      .h2 2.1  Textura y estructura
+    
+    .row.justify-content-center.align-items-center.mb-5
+      .titulo-sexto.color-acento-contenido.mb-5
+        h5 Tabla 1.
+        span Clasificación de las partículas del suelo por su tamaño
 
-    .row.justify-content-center.align-items-center.mb-0
+      .tabla-a.color-acento-botones.mb-5 
+        table.text-center
+          caption Nota. Tomada de Mori (2008). 
+          tr
+            td TIPO
+            td Arena gruesa
+            td Arena fina
+            td Limo
+            td Arcilla
+          tr
+            td DIAMETRO
+            td 2.000 - 0.200 mm
+            td 0.200 - 0.020 mm
+            td 0.200 - 0.020 mm
+            td Inferior a 0.002 mm
+
+    .row.align-items-center.justify-content-star.mb-1.ps-2(data-aos="zoom-in-down")
+      .col-lg-10.bg-color-1.px-3.py-2
+        .h3.mx-5.mb-0 Triangulo textural
+        
+    p.mb-3 El cual clasifica la textura del suelo en doce clases dependiendo su porcentaje de arena, limo y arcilla.
+      
+    .row.justify-content-center.align-items-center.mb-5
+      .titulo-sexto.color-acento-contenido.mb-5
+        h5 Figura 3.
+        span Triángulo textural
+      .col-lg-12(data-aos="fade-right") 
+        img(src='@/assets/curso/images/tema1/img_1.png'  alt='')
+
+    .row.align-items-center.justify-content-star.mb-1.ps-2(data-aos="zoom-in-down")
+      .col-lg-10.bg-color-1.px-3.py-2
+        .h3.mx-5.mb-0 Forma manual
+    
+    .row.align-items-center.justify-content-center.mb-5
+      .col-lg-8(data-aos="fade-right") 
+        p.mb-3 Para determinar la textura de forma manual, se modifica el triángulo textural, el cual queda constituido por suelos con textura arcillosa, franco-arcillosa y franca. 
+        p.mb-3 Para realizar el proceso se debe tomar una porción de suelo y formar una pelota humedeciéndola hasta llegar al punto pegajoso, el cual se logra cuando la pelota de suelo no está tan húmeda y se quiebra pegada en la mano, pero tampoco tan seca que no se sienta pegajosa. Cuando el suelo está en su punto, se debe presionar entre el dedo pulgar y el índice y se forme una pasta, lo más larga posible. 
+      .col-12.col-lg-4.mb-5(data-aos="fade-left")
+        img(src='@/assets/curso/images/tema1/img_19.png'  alt='')
+    
+    .row.justify-content-center.align-items-center.mb-5
+      .titulo-sexto.color-acento-contenido.mb-5
+        h5 Figura 4.
+        span Triángulo textural modificado
+      .col-lg-12(data-aos="fade-right") 
+        img(src='@/assets/curso/images/tema1/img_1.png'  alt='')
+
+    .row.align-items-center.justify-content-star.mb-1.ps-2(data-aos="zoom-in-down")
+      .col-lg-10.bg-color-1.px-3.py-2
+        .h3.mx-5.mb-0 Estructura
+   
+    .row.justify-content-center.align-items-center.mb-5
       .col-lg-12
+        .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5
+          .bloque-texto-g__img(
+            :style="{'background-image': `url(${require('@/assets/curso/images/tema1/img_1.png')})`}"
+          )
+          .bloque-texto-g__texto.p-4
+            p.mb-0 El término de estructura hace referencia al tipo de agrupamiento de las partículas del suelo; por lo cual se encuentra de tipo laminar, de bloques, prismáticas, masivas o sin estructura.
+
+    .row.align-items-center.justify-content-star.mb-1.ps-2(data-aos="zoom-in-down")
+      .col-lg-10.bg-color-1.px-3.py-2
+        .h3.mx-5.mb-0 Infiltración y capacidad de retención
+        
+    .row.align-items-center.justify-content-center.mb-5
+      .col-lg-8(data-aos="fade-right") 
+        p.mb-3 Como infiltración se conoce el paso del agua a través de la superficie de la tierra, por lo cual a medida que el agua desciende a niveles bajos (inferiores), el volumen de espacio poroso disminuye y a su vez la velocidad con la que el agua penetra en el suelo.
+        p.mb-3 Es importante tener en cuenta que en suelos arenosos el agua infiltra con una velocidad mayor que en los suelos arcillosos, por lo cual se deben tener en cuenta a la hora de establecer el sistema de riego para un cultivo.
+        p.mb-3 También es importante resaltar que en suelos arcillosos o arenosos (de partículas finas) su retención del agua es mayor, mientras que en suelos arenosos (partículas gruesas) la retención del agua es menor.
+        p.mb-3 Teniendo en cuenta la información anterior se puede inferir que, para efectos del sistema de riego en un cultivo, si el terreno es arcilloso el tiempo de riego es mayor y la frecuencia de riego también, mientras que en suelo arenoso, el tiempo de riego será menor, pero la frecuencia de riego mayor. Siendo así que cobra gran importancia la capacidad de infiltración y retención del agua en un cultivo.
+      .col-12.col-lg-4.mb-5(data-aos="fade-left")
+        img(src='@/assets/curso/images/tema1/img_19.png'  alt='')
+
+      
+    Separador
+    
+    #t_2_2.titulo-segundo
+      .h2 2.2  Agua en el suelo y estados de humedad
+   
+      .row.align-items-center.justify-content-center.mb-5
+        p.mb-4 La variabilidad de la humedad del suelo afecta directamente el crecimiento de las plantas, con una baja absorción de agua se reduce también la absorción de nutrientes y el cultivo lo expresa en una menor tasa de crecimiento y por ende menor rendimiento.
+        p.mb-4 En el suelo se encuentran diferentes tipos de agua, los cuales juegan un papel trascendental en el desarrollo de la planta, a continuación:
+  
         .tarjeta.bg_grad-01.p-3.mb-5(data-aos="zoom-in-up")
           SlyderA(tipo="b")
+  
             .row.justify-content-center.align-items-star.p-3
-              .col-12.col-lg-4
-                h4 Maquinaria
-                p.mb-5 Es la que se encarga de realizar las actividades de remoción de tierra, entre las que encontramos el tractor.
-             
-              .col-10.col-lg-6
-                img(src="@/assets/curso/images/tema2/img_1.png").mb-3
-           
+              .col-md-5.mb-4.mb-md-0
+                h4 Bovinos y bufalinos
+                p.mb-4 Se caracterizan por ser rumiantes y duran entre 9 y 11 horas en pastoreo continúo organizados en grupos en donde predomina la jerarquía y cualquier cambio los altera. Su comportamiento depende de la edad, etapa sexual, crías o lugar de estadía pues en hacinamiento el estrés produce cambios de conducta. 
+                p.mb-4 Su audición es aguda y sensible por ello se recomienda evitar ruidos a no ser que se utilice música que oculte cualquier ruido extraño dentro de las áreas de trabajo. Tienen una visión frontal binocular de 360º y su compartimiento es rutinario.
+  
+              .col-md-7
+                figure
+                  img(src='@/assets/curso/images/tema1/img_1.png', alt='Texto que describa la imagen')
+  
             .row.justify-content-center.align-items-star.p-3
-              .col-12.col-lg-4
-                h4 Equipos
-                p.mb-5 Son los que ayudan a mejorar el terreno o eliminar lo que no debe estar en él, entre los que encontramos arado, rastra, asperjadora, sembradora, abonadora, empacadora.
-              .col-10.col-lg-6
-                img(src="@/assets/curso/images/tema2/img_2.png").mb-3
-           
+              .col-md-5.mb-4.mb-md-0
+                h4 Equinos
+                p.mb-4 Se caracterizan por una vista aguda y visión amplia, es animal de manada y súper activo al medio donde su conformación está regida por macho alfa y subordinados. La alimentación es selectiva y solo duermen un promedio de 3 horas, en estado confinado por lo que se recomiendan los corrales en forma redonda. 
+                p.mb-4 En altos niveles de estrés el animal tiende a presentar desmayos entonces no se recomienda su manejo con animales como perros ni tábanos. Quien lo maneje no se le recomienda hacer movimientos repentinos pues alerta al animal por lo que lo mejor es vendar los ojos o transportarlo con la manada.
+  
+              .col-md-7
+                figure
+                  img(src='@/assets/curso/images/tema1/img_1.png', alt='Texto que describa la imagen')
+  
             .row.justify-content-center.align-items-star.p-3
-              .col-12.col-lg-4
-                h4 Herramientas
-                p.mb-5 Ayudan a realizar algunos procesos, como por ejemplo transportar, excavar para posteriormente realizar el proceso de siembra, entre las que encontramos barretones, carretillas, escardillas, machetes, palas, picos, rastrillos, regaderas, trasplantadora.
-
-              .col-10.col-lg-6
-                img(src="@/assets/curso/images/tema2/img_3.png").mb-3
-   
+              .col-md-5.mb-4.mb-md-0
+                h4 Porcinos
+                p.mb-3 Muy sensible a los sonidos, tienen vista deficiente y las temperaturas altas provocan altos niveles de estrés, muy agresivos cuando se mezclan con animales de otros grupos, por motivos de hacinamientos muestran comportamientos de canibalismo y se recomienda buena luz en los lugares de alojamiento.
+  
+              .col-md-7
+                figure
+                  img(src='@/assets/curso/images/tema1/img_1.png', alt='Texto que describa la imagen')
+                  
             .row.justify-content-center.align-items-star.p-3
-              .col-12.col-lg-10
-                h4 La maquinaria, herramientas y equipos
-                p.mb-3 cumplen una función estratégica en la optimización de las actividades del terreno: 
-
-                .row.justify-content-center
-                  .col-sm-6.col-lg-3.mb-3.mb-lg-0(data-aos="fade-right")
-                    .jumbotron-9.p-2.mb-1.h-100
-                      .row.justify-content-center.align-items-center
-                        .col-4.col-lg-4.lg-0
-                          img(src='@/assets/curso/images/tema2/ico_1.svg' alt='AvatarTop')
-                        .col-9.col-lg-6.lg-0.text-center
-                          p.mb-0  Reducir tiempos
-                          
-                  .col-sm-6.col-lg-3.mb-3.mb-lg-0(data-aos="fade-right")
-                    .jumbotron-9.p-2.mb-1.h-100
-                      .row.justify-content-center.align-items-center
-                        .col-4.col-lg-4.lg-0
-                          img(src='@/assets/curso/images/tema2/ico_1.svg' alt='AvatarTop')
-                        .col-9.col-lg-6.lg-0.text-center
-                          p.mb-0 Aumento de la productividad
-
-                  .col-sm-6.col-lg-3.mb-3.mb-lg-0(data-aos="fade-right")
-                    .jumbotron-9.p-2.mb-1.h-100
-                      .row.justify-content-center.align-items-center
-                        .col-4.col-lg-4.lg-0
-                          img(src='@/assets/curso/images/tema2/ico_1.svg' alt='AvatarTop')
-                        .col-9.col-lg-8.lg-0.text-center
-                          p.mb-0 Obtener mejores resultados en el cultivo
-
-                  .col-sm-6.col-lg-3.mb-3.mb-lg-0(data-aos="fade-right")
-                    .jumbotron-9.p-2.mb-1.h-100
-                      .row.justify-content-center.align-items-center
-                        .col-4.col-lg-4.lg-0
-                          img(src='@/assets/curso/images/tema2/ico_1.svg' alt='AvatarTop')
-                        .col-9.col-lg-6.lg-0.text-center
-                          p.mb-0 Mejoramiento de la calidad
-
-                  .col-sm-6.col-lg-3.mb-3.mb-lg-0.mt-3(data-aos="fade-right")
-                    .jumbotron-9.p-2.mb-1.h-100
-                      .row.justify-content-center.align-items-center
-                        .col-4.col-lg-4.lg-0
-                          img(src='@/assets/curso/images/tema2/ico_1.svg' alt='AvatarTop')
-                        .col-9.col-lg-6.lg-0.text-center
-                          p.mb-0  Identificación del suelo
-
-                  .col-sm-6.col-lg-3.mb-3.mb-lg-0.mt-3(data-aos="fade-right")
-                    .jumbotron-9.p-2.mb-1.h-100
-                      .row.justify-content-center.align-items-center
-                        .col-4.col-lg-4.lg-0
-                          img(src='@/assets/curso/images/tema2/ico_1.svg' alt='AvatarTop')
-                        .col-9.col-lg-4.lg-0.text-center
-                          p.mb-0 Ahorro económico
-
-                  .col-sm-6.col-lg-3.mb-3.mb-lg-0.mt-3(data-aos="fade-right")
-                    .jumbotron-9.p-2.mb-1.h-100
-                      .row.justify-content-center.align-items-center
-                        .col-4.col-lg-4.lg-0
-                          img(src='@/assets/curso/images/tema2/ico_1.svg' alt='AvatarTop')
-                        .col-9.col-lg-8.lg-0.text-center
-                          p.mb-0 Mejoramiento de las técnicas de siembra
-
-       
-          
-                .jumbotron-7.p-2.mt-3(data-aos="fade-left") 
-                  .row.justify-content-around.align-items-center
-                    .col-lg-10
-                      p.mb-0.text-center Sin embargo es importante identificar los impactos ambientales (agua, suelo, aire, flora, fauna) que se puedan generar con su implementación y diseñar estrategias de mitigación que permitan el desarrollo sostenible del proceso.
-
-    Separador
-
-    #t_2_1.titulo-segundo
-      .h2 2.1  Tipo, limpieza, calibración y mantenimiento
-    
-    .row.align-items-center.justify-content-center.mb-5
-      .col-lg-6(data-aos="fade-right") 
-        p.mb-3 El alistamiento del proceso de siembra, involucra la revisión de la maquinaria, con el fin de que se cumpla con las condiciones óptimas que permitan que el proceso se desarrolle de manera exitosa y no afecte el rendimiento del cultivo. Por eso la calibración, mantenimiento y limpieza de la maquinaria son actividades claves 
-        
-        .jumbotron-10.p-3.mb-3
-          p.mb-0 El mantenimiento se haga antes de guardar las máquinas. 
-        
-        .jumbotron-11.p-3.mb-3
-          p.mb-0 La calibración antes de usarlas. 
-
-        .jumbotron-12.p-3
-          p.mb-0 La limpieza es importante realizarla antes y después de utilizarlos, teniendo en cuenta que pueden estar sin utilizar por grandes periodos de tiempo.
-          
-      .col-7.col-lg-6(data-aos="fade-left")
-        img.mt-3(src='@/assets/curso/images/tema2/img_4.png'  alt='')
-
-    p.mb-3 Las actividades de calibración son indispensables para lograr densidades de siembra y tasas de fertilización esperadas, pues no hacerlo puede acarrear menor rendimiento del cultivo y esto se traduce en menores ingresos para el agricultor, por ejemplo al calibrar la sembradora, permitirá determinar la cantidad de semilla por área de terreno y así mismo la distancia y profundidad de siembra, evitan competición por nutrientes, suelo, agua, luz y además condiciones óptimas de humedad, garantizando su germinación.
-
-   
-    .row.justify-content-center.align-items-star.my-5
-      .col-lg-10
-        .jumbotron-13.p-1(data-aos="fade-left") 
-          .row.justify-content-around.align-items-center.p-2
-            .col-lg-2.col-6.d-flex.justify-content-center
-              img.mt-2(src='@/assets/curso/images/tema2/ico_2.svg',  alt='', style="width:80px; display:block; margin:auto 0 ;").mb-3
-            .col-lg-10
-              p.mb-0 No calibrar los equipos y máquinas generaría alteración en volúmenes de fertilizantes o lo que puede alterar el correcto desarrollo del cultivo.
-
-    p.mb-3 Los procesos agrícolas requieren de acciones puntuales que obedecen a diferentes condiciones, por lo que la limpieza, calibración y mantenimiento de la maquinaria, equipos y herramientas, obedecen al tipo de cultivo, tipo de semilla, temporada de siembra y condiciones climáticas. Todo esto con el fin de optimizar el proceso y obtener grandes resultados.
-
-    Separador
-
-    #t_2_2.titulo-segundo
-      .h2 2.2  Cronogramas y formatos
-
-    
-    .row.align-items-center.justify-content-center.mb-5
-      .col-lg-6(data-aos="fade-right") 
-        p.mb-3 La planeación, implica la determinación de lo que se quiere realizar, incluyendo las decisiones de gran importancia dentro del proceso, como el establecimiento de objetivos, programas, definición de técnicas, métodos, procedimientos y demás prioridades dentro del proceso, para este caso la siembra. Por lo cual es importante identificar las acciones a desarrollar a través de una secuencia lógica y ordenada que permita obtener resultados exitosos.
-
-        p.mb-0 El cronograma de siembra permite establecer una guía de las temporadas del año y las condiciones de siembra en cada una, con el fin de poder establecer un alto porcentaje de crecimiento y desarrollo del cultivo, teniendo en cuenta:
-        
-      .col-7.col-lg-6(data-aos="fade-left")
-        img.mt-3(src='@/assets/curso/images/tema2/img_5.svg'  alt='')
-
-    .row.justify-content-center.mb-3
-      .col-sm-6.col-lg-2.mb-3.mb-lg-0(data-aos="fade-right")
-        .jumbotron-9.p-2.mb-1.h-100
-          .row.justify-content-center.align-items-center
-            .col-4.col-lg-6.lg-0
-              img(src='@/assets/curso/images/tema2/ico_3.svg' alt='AvatarTop')
-            .col-9.col-lg-6.lg-0.text-center.ps-0
-              p.mb-0 Tipo de semilla
-              
-      .col-sm-6.col-lg-2.mb-3.mb-lg-0(data-aos="fade-right")
-        .jumbotron-9.p-2.mb-1.h-100
-          .row.justify-content-center.align-items-center
-            .col-4.col-lg-6.lg-0
-              img(src='@/assets/curso/images/tema2/ico_4.svg' alt='AvatarTop')
-            .col-9.col-lg-6.lg-0.text-center.ps-0
-              p.mb-0 Periodo de siembra
-
-      .col-sm-6.col-lg-2.mb-3.mb-lg-0(data-aos="fade-right")
-        .jumbotron-9.p-2.mb-1.h-100
-          .row.justify-content-center.align-items-center
-            .col-4.col-lg-5.lg-0.ps-0
-              img(src='@/assets/curso/images/tema2/ico_5.svg' alt='AvatarTop')
-            .col-9.col-lg-6.lg-0.text-center.ps-0
-              p.mb-0 Preparación del terreno
-
-      .col-sm-6.col-lg-2.mb-3.mb-lg-0(data-aos="fade-right")
-        .jumbotron-9.p-2.mb-1.h-100
-          .row.justify-content-center.align-items-center
-            .col-4.col-lg-6.lg-0
-              img(src='@/assets/curso/images/tema2/ico_6.svg' alt='AvatarTop')
-            .col-9.col-lg-6.lg-0.text-center.ps-0
-              p.mb-0 Plazo de trasplante
-
-      .col-sm-6.col-lg-2.mb-3.mb-lg-0(data-aos="fade-right")
-        .jumbotron-9.p-2.mb-1.h-100
-          .row.justify-content-center.align-items-center
-            .col-4.col-lg-6.lg-0
-              img(src='@/assets/curso/images/tema2/ico_7.svg' alt='AvatarTop')
-            .col-9.col-lg-6.lg-0.text-center.ps-0
-              p.mb-0 Distancia de los surcos
-    .row.justify-content-center.mb-3
-      .col-sm-6.col-lg-2.mb-3.mb-lg-0.mt-3(data-aos="fade-right")
-        .jumbotron-9.p-2.mb-1.h-100
-          .row.justify-content-center.align-items-center
-            .col-4.col-lg-6.lg-0
-              img(src='@/assets/curso/images/tema2/ico_8.svg' alt='AvatarTop')
-            .col-9.col-lg-6.lg-0.text-center.ps-0
-              p.mb-0 Distancia de las plantas
-
-      .col-sm-6.col-lg-2.mb-3.mb-lg-0.mt-3(data-aos="fade-right")
-        .jumbotron-9.p-2.mb-1.h-100
-          .row.justify-content-center.align-items-center
-            .col-4.col-lg-5.lg-0
-              img.m-left(src='@/assets/curso/images/tema2/ico_9.svg' alt='AvatarTop')
-            .col-9.col-lg-6.lg-0.text-center.ps-0
-              p.m-left.mb-0 Fertilización
-
-      .col-sm-6.col-lg-2.mb-3.mb-lg-0.mt-3(data-aos="fade-right")
-        .jumbotron-9.p-2.mb-1.h-100
-          .row.justify-content-center.align-items-center
-            .col-4.col-lg-5.lg-0
-              img.m-left(src='@/assets/curso/images/tema2/ico_10.svg' alt='AvatarTop')
-            .col-9.col-lg-7.lg-0.text-center.ps-0
-              p.m-left.mb-0 Abonamiento
-
-      .col-sm-6.col-lg-2.mb-3.mb-lg-0.mt-3(data-aos="fade-right")
-        .jumbotron-9.p-2.mb-1.h-100
-          .row.justify-content-center.align-items-center
-            .col-4.col-lg-5.lg-0
-              img(src='@/assets/curso/images/tema2/ico_11.svg' alt='AvatarTop')
-            .col-9.col-lg-7.lg-0.text-center.ps-0
-              p.mb-0 Recogida
-
-    p.mb-0 El productor debe llevar un registro organizado de las actividades desarrolladas, por eso es indispensable el diseño de los formatos que permitan plasmar la información recolectada, la cual debe estar disponible en físico y sistematizada con fines de tecnificar el proceso, y a su vez evitar retrasos en la ejecución de las actividades, que pueda generar un desequilibrio y pérdidas productivas. Por lo cual resulta indispensable planear perfectamente el proceso con el fin de reducir al máximo los posibles contratiempos y lograr que el proceso se realice de manera eficiente y eficaz. 
-
-     
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+              .col-md-5.mb-4.mb-md-0
+                h4 Ovinos/caprinos y aves de corral
+                p.mb-3 Los primero son poligástricos, animales sociables, pero son muy territoriales y pueden reconocer rostros, olores y sabores durante años, en el caso de las aves son jerárquicas, en hacinamiento tienen a ser caníbales y se caracterizan por ser mono gástrico y carecer de olfato y gusto siendo animales diurnos dependientes del fotoperiodo (luz).
+  
+              .col-md-7
+                figure
+                  img(src='@/assets/curso/images/tema1/img_1.png', alt='Texto que describa la imagen')
 
 </template>
 
