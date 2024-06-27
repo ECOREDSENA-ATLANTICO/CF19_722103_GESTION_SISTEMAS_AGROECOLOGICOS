@@ -17,8 +17,11 @@
           )
           .bloque-texto-g__texto.p-4
             p.mb-0 El siguiente componente formativo denominado “Riego y drenaje”, desarrolla las temáticas enfocadas al diseño e implementación del sistema de riego y drenaje del cultivo; se puede explorar más en profundidad en el siguiente video:
+      
       figure.mb-5(data-aos="fade-right")
-        img.img-t.m-auto(src='@/assets/curso/images/introduccion/img_2.svg', alt='')
+        .video
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/wW7oQaxxQP0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 </template>
 
 <script>
