@@ -59,7 +59,8 @@
       .col-12.col-lg-5.mb-5(data-aos="fade-left")
         img(src='@/assets/curso/images/tema1/img_2.svg'  alt='')
       .col-12.col-lg-12.mb-5(data-aos="fade-left")
-        img(src='@/assets/curso/images/tema1/img_3.svg'  alt='')
+        img.ocultar(src='@/assets/curso/images/tema1/img_3.svg'  alt='')
+        img.mostrar(src='@/assets/curso/images/tema1/img_3_1.svg'  alt='')
         
       p.mb-3 Para comprender cómo funcionan las cuencas hidrográficas es indispensable conocer el ciclo del agua. Teniendo como base que las 3⁄4 partes de tierra se componen de agua, de la cual gran porción se evapora debido al calor (rayos solares), quedando gran segmento del agua suspendida en la atmósfera en forma de vapor de agua, convirtiéndose fracción de este vapor de agua en nubes, las cuales cuando se saturan, regresan el agua a la tierra en forma de lluvia.
       p.mb-3 En la tierra las cuencas juegan el papel de receptores del agua, de donde el agua vuelve al mar, a la atmósfera o es almacenada temporalmente en los suelos y acuíferos.

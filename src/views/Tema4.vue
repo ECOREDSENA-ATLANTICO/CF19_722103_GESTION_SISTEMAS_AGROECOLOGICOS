@@ -32,8 +32,11 @@
 
     p.mb-3 A continuación, se plantea cómo es este método: 
 
-    .imagen_responsive_met_surcos(alt='')
-
+    .row.align-items-center.justify-content-center
+      .col-12.col-lg-12.mb-5(data-aos="fade-left")
+        img.ocultar(src='@/assets/curso/images/tema4/img_3.svg'  alt='')
+        img.mostrar(src='@/assets/curso/images/tema4/img_22.svg'  alt='')
+        
     .row.justify-content-justify.align-items-justify.mb-5
       p.mb-3 Denominado también pro desborde o anegamiento, el cual consiste en dejar escurrir el agua desde canales, los cuales se trazan por los sectores más altos. Se humedece el suelo al tiempo que el agua cubre la superficie.
       p.mb-5 Las diferencias en las características topográficas configuran las variables de trazado y las dimensiones de las melgas (faja de terreno delimitada por bordes) (ver figura 6).
