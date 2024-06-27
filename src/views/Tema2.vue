@@ -74,7 +74,8 @@
         span Triángulo textural
       .col-lg-12(data-aos="fade-right") 
         img(src='@/assets/curso/images/tema2/img_2.svg'  alt='').mb-4
-        figcaption Nota. CSR LABORATORIO. (2012). Inicio. http://www.csrlaboratorio.es
+        figcaption Nota. 
+          a.mb-4(href="http://www.csrlaboratorio.es" target="_blank") CSR LABORATORIO. (2012). Inicio.
 
     .row.align-items-center.justify-content-star.mb-1.ps-2(data-aos="zoom-in-down")
       .col-lg-10.bg-color-1.px-3.py-2.mb-3
@@ -93,7 +94,8 @@
         span Triángulo textural modificado
       .col-lg-12(data-aos="fade-right") 
         img(src='@/assets/curso/images/tema2/img_4.svg'  alt='').mb-4
-        figcaption Nota. 6. TEXTURA DEL SUELO. https://www.fao.org/fishery/docs/CDrom/FAO_Training/FAO_Training/General/x6706s/x6706s06.htm 
+        figcaption Nota. 6. 
+          a.mb-4(href="https://www.fao.org/fishery/docs/CDrom/FAO_Training/FAO_Training/General/x6706s/x6706s06.htm" target="_blank") TEXTURA DEL SUELO.
 
     .row.align-items-center.justify-content-star.mb-1.ps-2(data-aos="zoom-in-down")
       .col-lg-10.bg-color-1.px-3.py-2.mb-5
