@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero 
         span 3
-      h1 Relación agua-suelo-planta y clima
+      h1(data-aos="fade-right") Relación agua-suelo-planta y clima
 
     .row.align-items-center.justify-content-center.mb-5
       p.mb-3 De la porción de agua absorbida por la planta, una fracción es la que suministra el hidrógeno necesario para la planta y la otra parte se utiliza en la transpiración (paso de agua a la atmósfera). Para que dicho intercambio de gases sea posible existen estomas (pequeños orificios), los cuales se encuentran abiertos en presencia de agua, por lo cual cuando hay escasez de agua la planta los cierra como mecanismo de defensa. La escasez de agua puede generar marchitez de la planta y a su vez generar estrés hídrico, lo que puede ocasionar reducción de productividad y hasta muerte de la planta.
@@ -60,7 +60,8 @@
         .h3.mx-5.mb-0.mt-4 Influencia del clima
     
     p.mb-3 Los factores climáticos afectan directamente la producción de los cultivos. La temperatura, la radiación solar y el agua en el suelo son los tres principales factores meteorológicos que regulan los procesos ecofisiológicos y metabólicos en las plantas.
-   
+    p.mb-3 Siendo así, la influencia del clima está dada por variables como:
+    
     ImagenInfografica.color-acento-botones
       template(v-slot:imagen)
         figure

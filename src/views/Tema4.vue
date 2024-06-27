@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero 
         span 4
-      h1 Sistemas de riego
+      h1(data-aos="fade-right") Sistemas de riego
     
     .row.align-items-center.justify-content-center.mb-0
       .col-lg-7(data-aos="fade-right") 
@@ -32,14 +32,13 @@
 
     p.mb-3 A continuación, se plantea cómo es este método: 
 
-    img(src='@/assets/curso/images/tema4/img_3.svg'  alt='').mb-3
+    .imagen_responsive_met_surcos(alt='')
 
-    .row.justify-content-center.align-items-center.mb-5
-      .col-lg-3
-        p.mb-3 Denominado también pro desborde o anegamiento, el cual consiste en dejar escurrir el agua desde canales, los cuales se trazan por los sectores más altos. Se humedece el suelo al tiempo que el agua cubre la superficie.
-        p.mb-3 Las diferencias en las características topográficas configuran las variables de trazado y las dimensiones de las melgas (faja de terreno delimitada por bordes) (ver figura 6).
-
-      .col-lg-9  
+    .row.justify-content-justify.align-items-justify.mb-5
+      p.mb-3 Denominado también pro desborde o anegamiento, el cual consiste en dejar escurrir el agua desde canales, los cuales se trazan por los sectores más altos. Se humedece el suelo al tiempo que el agua cubre la superficie.
+      p.mb-5 Las diferencias en las características topográficas configuran las variables de trazado y las dimensiones de las melgas (faja de terreno delimitada por bordes) (ver figura 6).
+      
+      .col-lg-12.mb-3
         .titulo-sexto.color-acento-contenido.mb-3
           h5 Figura 6.
           span  Riego por inundación
@@ -48,18 +47,33 @@
 
     p.mb-3 Un sistema de riego por superficie, se componen de:
 
-    .row.justify-content-center.align-items-center.mb-5
-      .col-lg-5.col-lg.mb-5.mb-lg-0
-        img(src='@/assets/curso/images/tema4/img_5.png'  alt='')
-      .col-lg-3.col-lg.mb-5.mb-lg-0
-        .bloque-texto.color-acento-contenido-tarjeta.p-4
-          p.text-small a. Distribución del agua, compuesto por obras de instalación que transportan el agua desde la captación hasta el cultivo, por lo cual contempla, la captación, red principal, red de distribución, red terciaria, red de avenamiento y drenaje.
-      .col-lg-2.col-lg.mb-5.mb-lg-0
-        .bloque-texto.color-acento-contenido-tarjeta.p-4
-          p.text-small b. Sistema de aforo, que permite el control exacto del caudal de agua para aplicar por el sistema de riego.
-      .col-lg-2.col-lg.mb-5.mb-lg-0
-        .bloque-texto.color-acento-contenido-tarjeta.p-4
-          p.text-small c. Sistemas de aplicación, que involucra sifoncillos, caños, compuertas o acequias, válvulas de alfalfa, tuberías con compuertas, mangueras de polietileno.
+    .row.justify-content-center.mb-5
+      .col-xl-4.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0
+        .crd_hover_txt(data-aos="flip-left")
+          .crd_hover_txt--img
+            figure
+              img(src="@/assets/curso/images/tema4/img_111.png", alt="alt")
+          .crd_hover_txt--body.text-center
+            h4.mb-3 a. Distribución del agua
+            p.mb-0 Compuesto por obras de instalación que transportan el agua desde la captación hasta el cultivo, por lo cual contempla, la captación, red principal, red de distribución, red terciaria, red de avenamiento y drenaje.
+
+      .col-xl-4.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0
+        .crd_hover_txt(data-aos="flip-left")
+          .crd_hover_txt--img
+            figure
+              img(src="@/assets/curso/images/tema4/img_222.png", alt="alt")
+          .crd_hover_txt--body.text-center
+            h4.mb-3 b. Sistema de aforo
+            p.mb-0 Permite el control exacto del caudal de agua para aplicar por el sistema de riego.
+
+      .col-xl-4.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0
+        .crd_hover_txt(data-aos="flip-left")
+          .crd_hover_txt--img
+            figure
+              img(src="@/assets/curso/images/tema4/img_333.png", alt="alt")
+          .crd_hover_txt--body.text-center
+            h4.mb-3 c. Sistemas de aplicación
+            p.mb-0 Sistemas de aplicación, que involucra sifoncillos, caños, compuertas o acequias, válvulas de alfalfa, tuberías con compuertas, mangueras de polietileno.
 
     
     .row.align-items-center.justify-content-star.mb-1.ps-2(data-aos="zoom-in-down")
@@ -118,7 +132,17 @@
             .col-lg-7(data-aos="fade-right") 
               img(src='@/assets/curso/images/tema4/img_8.png'  alt='')
 
+    .row.align-items-center.justify-content-star.mb-1.ps-2(data-aos="zoom-in-down")
+      .col-lg-10.bg-color-1.px-3.py-2.mb-3
+        .h3.mx-5.mb-0.mt-4 Método por goteo
 
+    .row.align-items-center.justify-content-center.mb-5
+      .col-lg-5(data-aos="fade-right") 
+        p.mb-3 Consiste en aplicar el agua en gotas, directamente en el área de plantación. El agua se infiltra al mismo tiempo que se aplica, de manera continua o a intervalos. Mediante este método el agua se aplica según los requerimientos del cultivo; sin embargo, requiere de tecnología que permita determinar la frecuencia y cantidad de agua que se debe aplicar.
+        
+      .col-12.col-lg-7.mb-2(data-aos="fade-left")
+        img(src='@/assets/curso/images/tema4/img_21.png'  alt='')
+      
     Separador
 
     #t_4_2.titulo-segundo

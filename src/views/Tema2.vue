@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero 
         span 2
-      h1 Propiedades del suelo 
+      h1(data-aos="fade-right") Propiedades del suelo 
 
     .row.align-items-center.justify-content-center.mb-2
       .col-7.col-lg-5(data-aos="fade-right")
@@ -47,7 +47,7 @@
 
       .tabla-a.color-acento-botones.mb-5 
         table.text-center
-          caption Nota. Tomada de Mori (2008). 
+          caption Nota. SENA (2022). 
           tr
             td.td-color-secundario.text-bold TIPO
             td Arena gruesa

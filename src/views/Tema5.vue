@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero 
         span 5
-      h1 Drenaje
+      h1(data-aos="fade-right") Drenaje
     
     .row.align-items-center.justify-content-center.mb-0
       .col-12.col-lg-5.mb-2(data-aos="fade-left")

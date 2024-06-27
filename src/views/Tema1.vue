@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero 
         span 1
-      h1 Potencial hídrico
+      h1(data-aos="fade-right") Potencial hídrico
 
     .row.align-items-center.justify-content-center.mb-4
       p.mb-3 El agua posee un carácter multisectorial, la diversidad de usos la convierte en un recurso limitado,
@@ -58,15 +58,42 @@
         p.mb-3 A continuación, se describen los elementos y partes geográficas de una cuenca hidrográfica:
       .col-12.col-lg-5.mb-5(data-aos="fade-left")
         img(src='@/assets/curso/images/tema1/img_2.svg'  alt='')
-      .col-12.col-lg-12(data-aos="fade-left")
+      .col-12.col-lg-12.mb-5(data-aos="fade-left")
         img(src='@/assets/curso/images/tema1/img_3.svg'  alt='')
+        
+      p.mb-3 Para comprender cómo funcionan las cuencas hidrográficas es indispensable conocer el ciclo del agua. Teniendo como base que las 3⁄4 partes de tierra se componen de agua, de la cual gran porción se evapora debido al calor (rayos solares), quedando gran segmento del agua suspendida en la atmósfera en forma de vapor de agua, convirtiéndose fracción de este vapor de agua en nubes, las cuales cuando se saturan, regresan el agua a la tierra en forma de lluvia.
+      p.mb-3 En la tierra las cuencas juegan el papel de receptores del agua, de donde el agua vuelve al mar, a la atmósfera o es almacenada temporalmente en los suelos y acuíferos.
 
     .row.justify-content-center.align-items-center.mb-5
       .titulo-sexto.color-acento-contenido.mb-5
         h5 Figura 2.
         span Ciclo del agua
-      .col-lg-12(data-aos="fade-right") 
-        img(src='@/assets/curso/images/tema1/img_4.svg'  alt='')
+
+      ImagenInfografica.color-acento-botones(data-aos="fade-right") 
+        template(v-slot:imagen)
+          figure
+            img(src='@/assets/curso/images/tema1/img_4.svg'  alt='')
+
+        .tarjeta.color-acento-botones.p-3(x="36.8%" y="69.5%" numero="+")
+          .h5.mb-2 Infiltración
+          p Parte del agua que cae se infiltra en el suelo, reponiendo las aguas subterráneas y los acuíferos.
+
+        .tarjeta.color-acento-botones.p-3(x="32.6%" y="35%" numero="+")
+          .h5.mb-2 Precipitación
+          p Cuando las gotas de agua en las nubes se combinan y crecen lo suficiente, caen a la Tierra en forma de lluvia, nieve, granizo o aguanieve.
+
+        .tarjeta.color-acento-botones.p-3(x="60%" y="24.1%" numero="+")
+          .h5.mb-2 Condensación
+          p El vapor de agua se eleva a la atmósfera y se enfría, formando nubes a medida que el vapor se condensa en pequeñas gotas de agua o cristales de hielo.
+
+        .tarjeta.color-acento-botones.p-3(x="63%" y="82.5%" numero="+")
+          .h5.mb-2 Escorrentía
+          p El agua que no se infiltra en el suelo fluye sobre la superficie terrestre, dirigiéndose a ríos, lagos y océanos, completando así el ciclo.
+
+        .tarjeta.color-acento-botones.p-3(x="92.5%" y="71.5%" numero="+")
+          .h5.mb-2 Evaporación
+          p El agua de los océanos, ríos, lagos y otros cuerpos de agua se evapora debido al calor del sol, convirtiéndose en vapor de agua. 
+
 
     .row.align-items-center.justify-content-star.mb-3.ps-2(data-aos="zoom-in-down")
       .col-lg-10.bg-color-1.px-5.py-2.mb-4
@@ -75,6 +102,7 @@
       .col-lg-12.mb-4
         p.mb-3 La captación de aguas superficiales (ríos, lagos y embalses), consiste en una estructura a nivel de terreno, mediante la cual se hace uso y aprovechamiento del agua de una fuente hídrica, la cual se puede hacer de dos maneras, ya sea por gravedad (cuando la fuente hídrica se encuentra por encima del punto de aprovechamiento) o por bombeo (cuando la fuente se encuentra por debajo del nivel donde se encuentra el usuario), con fines a garantizar el suministro de agua, independiente de su uso.
         p.mb-3 La captación de agua es el proceso mediante el cual se recolecta y almacena el recurso hídrico proveniente de diversas fuentes para darle un uso, es un recurso finito; es decir, su pérdida y degradación no son reversibles en el tiempo de una vida humana.
+        p.mb-3 Se pueden conocer los requisitos generales de las obras de captación a través del siguiente esquema:
 
     ImagenInfografica.color-acento-botones
       template(v-slot:imagen)
