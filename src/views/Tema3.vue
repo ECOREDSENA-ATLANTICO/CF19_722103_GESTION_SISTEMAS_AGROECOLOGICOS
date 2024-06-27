@@ -17,7 +17,7 @@
     
     .row.justify-content-center.align-items-center.p-3.mb-3  
       .col-lg-12(data-aos="fade-right") 
-        img(src='@/assets/curso/images/tema3/img_1.png'  alt='')
+        img(src='@/assets/curso/images/tema3/img_1.png'  alt='Muestra el esquemas de utilización del agua, teniendo en cuenta la energía, oxigeno, azúcar y dióxido de carbono.')
         figcaption Nota. Fotosíntesis (2022). 
 
     .row.align-items-center.justify-content-center.mb-5

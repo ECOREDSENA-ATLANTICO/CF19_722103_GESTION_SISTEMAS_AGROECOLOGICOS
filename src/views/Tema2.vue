@@ -26,7 +26,7 @@
     Separador
     
     #t_2_1.titulo-segundo
-      .h2 2.1  Textura y estructura
+      .h2(data-aos="fade-right") 2.1  Textura y estructura
     
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-12.mb-4
@@ -73,7 +73,7 @@
         h5 Figura 3.
         span Triángulo textural
       .col-lg-12(data-aos="fade-right") 
-        img(src='@/assets/curso/images/tema2/img_2.svg'  alt='').mb-4
+        img(src='@/assets/curso/images/tema2/img_2.svg'  alt='La imagen muestra el triángulo textural, según su porcentaje de arena, limo y arcilla. Debajo de la imagen se enumeran los  elementos que la conforman.').mb-4
         figcaption Nota. 
           a.mb-4(href="http://www.csrlaboratorio.es" target="_blank") CSR LABORATORIO. (2012). Inicio.
 
@@ -93,7 +93,7 @@
         h5 Figura 4.
         span Triángulo textural modificado
       .col-lg-12(data-aos="fade-right") 
-        img(src='@/assets/curso/images/tema2/img_4.svg'  alt='').mb-4
+        img(src='@/assets/curso/images/tema2/img_4.svg'  alt='La imagen muestra el Triángulo textural modificado, constituido por suelos con textura arcillosa, franco-arcillosa y franca.').mb-4
         figcaption Nota. 6. 
           a.mb-4(href="https://www.fao.org/fishery/docs/CDrom/FAO_Training/FAO_Training/General/x6706s/x6706s06.htm" target="_blank") TEXTURA DEL SUELO.
 
@@ -127,7 +127,7 @@
     Separador
     
     #t_2_2.titulo-segundo
-      .h2 2.2  Agua en el suelo y estados de humedad
+      .h2(data-aos="fade-right") 2.2  Agua en el suelo y estados de humedad
    
     .row.align-items-center.justify-content-center.mb-5
       p.mb-4 La variabilidad de la humedad del suelo afecta directamente el crecimiento de las plantas, con una baja absorción de agua se reduce también la absorción de nutrientes y el cultivo lo expresa en una menor tasa de crecimiento y por ende menor rendimiento.

@@ -12,7 +12,7 @@
     .row.justify-content-center
       .col-lg-10.mb-5
         figure
-          img(src="@/assets/curso/images/tema2/sintesis.svg", alt="alt")
+          img(src="@/assets/curso/images/tema2/sintesis.svg", alt="La grafica muestra la síntesis del riesgo y drenaje del cultivo, donde involucra potencial hídrico, propiedades del suelo y agua, Relación agua-suelo -planta y clima, Sistema de riesgo, Drenaje y Normatividad.")
       .col-auto
         a.anexo.mb-4(:href="obtenerLink('/downloads/Sintesis.pdf')" target="_blank")
           .anexo__icono

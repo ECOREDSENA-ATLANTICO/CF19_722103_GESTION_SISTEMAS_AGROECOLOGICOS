@@ -17,7 +17,7 @@
     Separador
 
     #t_4_1.titulo-segundo
-      .h2 4.1   Métodos de riego
+      .h2(data-aos="fade-right") 4.1   Métodos de riego
       
     .row.align-items-center.justify-content-center.mb-0
       .col-12.col-lg-6.mb-2(data-aos="fade-left")
@@ -34,8 +34,8 @@
 
     .row.align-items-center.justify-content-center
       .col-12.col-lg-12.mb-5(data-aos="fade-left")
-        img.ocultar(src='@/assets/curso/images/tema4/img_3.svg'  alt='')
-        img.mostrar(src='@/assets/curso/images/tema4/img_22.svg'  alt='')
+        img.ocultar(src='@/assets/curso/images/tema4/img_3.svg'  alt='La imagen muestra los dos métodos de riesgo, según su primer nivel y segundo nivel.')
+        img.mostrar(src='@/assets/curso/images/tema4/img_22.svg'  alt='La imagen muestra los dos métodos de riesgo, según su primer nivel y segundo nivel.')
         
     .row.justify-content-justify.align-items-justify.mb-5
       p.mb-3 Denominado también pro desborde o anegamiento, el cual consiste en dejar escurrir el agua desde canales, los cuales se trazan por los sectores más altos. Se humedece el suelo al tiempo que el agua cubre la superficie.
@@ -46,7 +46,7 @@
           h5 Figura 6.
           span  Riego por inundación
         
-        img(src='@/assets/curso/images/tema4/img_4.png'  alt='')
+        img(src='@/assets/curso/images/tema4/img_4.png'  alt='La imagen muestra las características topográficas que tiene un riego por inundación.')
 
     p.mb-3 Un sistema de riego por superficie, se componen de:
 
@@ -112,7 +112,7 @@
               p.mb-3 Tanto la unidad de bombeo como la tubería están localizadas en sitios determinados por el diseño.
             
             .col-lg-8(data-aos="fade-right") 
-              img(src='@/assets/curso/images/tema4/img_7.png'  alt='')
+              img(src='@/assets/curso/images/tema4/img_7.png'  alt='La imagen muestra un Sistemas de riego por aspersión, según el tipo de red de tuberías.')
 
         .tarjeta.tarjeta--gris.p-4
           .row.justify-content-center.align-items-center.p-3  
@@ -149,7 +149,7 @@
     Separador
 
     #t_4_2.titulo-segundo
-      .h2 4.2  . Criterios de Selección
+      .h2(data-aos="fade-right") 4.2  . Criterios de Selección
 
     .row.align-items-center.justify-content-center.mb-5
       p.mb-4 La selección del método de riego depende del tipo de cultivo, tipo de suelo, topografía, economía, el clima, la mano de obra, así como el manejo del riego y parcela. Además del grado de sistematización del terreno, pues seleccionar el método de riego implica la toma de decisiones de acuerdo a las condiciones del predio donde se encuentra la plantación y sistematización del proceso. A continuación, se pueden consultar los criterios de selección con más detalle:

@@ -10,8 +10,8 @@
             img(src="@/assets/template/arrastrar.svg", alt="Texto que describa la imagen")
       .col-12.col-md-8.col-lg-9
         .titulo-segundo
-          h2 Alistamiento del proceso de siembra
-        p.mb-4 Afianzar algunos de los conceptos sobre alistamiento del proceso de siembra.
+          h2 Sistema de riego y drenaje de cultivos
+        p.mb-4 Afianzar algunos de los conceptos sobre sistema de riego y drenaje de cultivos.
         .tarjeta.actividad.p-3
           .row.justify-content-around.align-items-center            
             .col-sm.mb-3.mb-sm-0

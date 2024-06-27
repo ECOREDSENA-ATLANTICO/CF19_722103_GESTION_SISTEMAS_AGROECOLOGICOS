@@ -35,7 +35,7 @@
           h5 Figura 8.
           span Drenaje superficial
         
-        img(src='@/assets/curso/images/tema5/img_2.png'  alt='')
+        img(src='@/assets/curso/images/tema5/img_2.png'  alt='La imagen muestra el diseño de un Drenaje superficial, para el manejo de la topografía, la cubierta vegetal y el uso de la tierra.')
 
     .row.justify-content-center.align-items-center.mb-3
       .col-lg-12        
@@ -53,7 +53,7 @@
           h5 Figura 9.
           span Sistema de drenaje combinado (zanja abierta y tubo enterrado)
         
-        img(src='@/assets/curso/images/tema5/img_3.png'  alt='').mb-3
+        img(src='@/assets/curso/images/tema5/img_3.png'  alt='La imagen nuestra el terreno de un Sistema de drenaje combinado (zanja abierta y tubo enterrado), para la remoción de agua subterránea').mb-3
         figcaption Nota. Nota. EcuRed. (2012). Riego y Drenaje. 
         
     .row.align-items-center.justify-content-star.mb-1.ps-2(data-aos="zoom-in-down")
