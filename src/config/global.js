@@ -3,7 +3,7 @@ export default {
     componenteFormativo: 'Riego y drenaje',
     descripcionCurso:
       'En este componente formativo se abordan temas que permitirán diseñar e implementar un sistema de riego para cultivos, teniendo en cuenta el tipo de agua y sistemas de abastecimiento, propiedades del suelo, relación del agua-suelo-planta y clima, tipos de sistemas de riego, métodos de riego y drenaje y la normatividad asociada.',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.svg'),
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.svg'),
     imagenesDecorativasBanner: [
       {
