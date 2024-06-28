@@ -34,8 +34,8 @@
 
     .row.align-items-center.justify-content-center
       .col-12.col-lg-12.mb-5(data-aos="fade-left")
-        img.ocultar(src='@/assets/curso/images/tema4/img_3.svg'  alt='La imagen muestra los dos métodos de riesgo, según su primer nivel y segundo nivel.')
-        img.mostrar(src='@/assets/curso/images/tema4/img_22.svg'  alt='La imagen muestra los dos métodos de riesgo, según su primer nivel y segundo nivel.')
+        img.ocultar(src='@/assets/curso/images/tema4/img_3.png'  alt='La imagen muestra los dos métodos de riesgo, según su primer nivel y segundo nivel.')
+        img.mostrar(src='@/assets/curso/images/tema4/img_3_1.png'  alt='La imagen muestra los dos métodos de riesgo, según su primer nivel y segundo nivel.')
         
     .row.justify-content-justify.align-items-justify.mb-5
       p.mb-3 Denominado también pro desborde o anegamiento, el cual consiste en dejar escurrir el agua desde canales, los cuales se trazan por los sectores más altos. Se humedece el suelo al tiempo que el agua cubre la superficie.

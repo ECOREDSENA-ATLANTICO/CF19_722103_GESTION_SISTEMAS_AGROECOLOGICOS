@@ -9,7 +9,7 @@
 
     .row.align-items-center.justify-content-center.mb-2
       .col-7.col-lg-5(data-aos="fade-right")
-        img.mt-3(src='@/assets/curso/images/tema2/img_1.svg'  alt='')
+        img.mt-3(src='@/assets/curso/images/tema2/img1.png'  alt='')
       .col-lg-7(data-aos="fade-left") 
         .col-lg-10.bg-color-1.px-5.py-2.mb-3
           .h3.mx-2.mb-0.mt-4 El suelo:

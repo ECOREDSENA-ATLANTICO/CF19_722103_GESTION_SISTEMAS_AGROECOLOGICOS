@@ -65,7 +65,7 @@
     ImagenInfografica.color-acento-botones
       template(v-slot:imagen)
         figure
-          img(src='@/assets/curso/images/tema3/img_5.svg'  alt='')
+          img(src='@/assets/curso/images/tema3/img_5.png'  alt='')
 
       .tarjeta.color-acento-botones.p-3(x="16.6%" y="52%" numero="1")
         .h5.mb-2 Temperatura

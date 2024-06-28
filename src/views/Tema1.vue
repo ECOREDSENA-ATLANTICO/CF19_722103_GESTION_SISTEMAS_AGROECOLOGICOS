@@ -62,7 +62,7 @@
     ImagenInfografica.color-acento-botones
       template(v-slot:imagen)
         figure
-          img(src='@/assets/curso/images/tema1/img_5_1.png'  alt='')
+          img(src='@/assets/curso/images/tema1/img_5_1_1.png'  alt='')
 
       .tarjeta.color-acento-botones.p-3(x="23.4%" y="55%" numero="1")
         .h5.mb-2 Cuenca
@@ -152,8 +152,8 @@
         p.mb-3 Se pueden conocer los requisitos generales de las obras de captación a través del siguiente esquema:
       
       .col-12.col-lg-12.mb-5(data-aos="fade-left")
-        img.ocultar(src='@/assets/curso/images/tema1/img_3.svg'  alt='')
-        img.mostrar(src='@/assets/curso/images/tema1/img_3_1.svg'  alt='')
+        img.ocultar(src='@/assets/curso/images/tema1/img_3.png'  alt='')
+        img.mostrar(src='@/assets/curso/images/tema1/img_3_1.png'  alt='')
     
 </template>
 
