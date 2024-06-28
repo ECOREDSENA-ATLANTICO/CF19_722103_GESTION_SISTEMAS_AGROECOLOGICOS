@@ -47,6 +47,7 @@
           span  Riego por inundación
         
         img(src='@/assets/curso/images/tema4/img_4.png'  alt='La imagen muestra las características topográficas que tiene un riego por inundación.')
+        figcaption Nota. Manual – métodos de riego (2012). https://fundacionsuna.org/wp-content/uploads/PDF/Jaime-Lamo/MANUAL-M%C3%89TODOS-DE-SISTEMAS-DE-RIEGO.pdf
 
     p.mb-3 Un sistema de riego por superficie, se componen de:
 
@@ -131,6 +132,9 @@
                 li
                   i.lista-ul__vineta
                   | Elevadores, tubos que conectan la tubería lateral y el aspersor, la cual ayuda a romper la turbulencia del agua. 
+                li
+                  i.lista-ul__vineta
+                  | Aspersores, responsables de la entrega del agua.
               
             .col-lg-7(data-aos="fade-right") 
               img(src='@/assets/curso/images/tema4/img_8.png'  alt='')

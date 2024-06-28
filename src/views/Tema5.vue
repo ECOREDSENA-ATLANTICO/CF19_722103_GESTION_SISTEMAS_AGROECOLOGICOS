@@ -148,7 +148,7 @@
         .bloque-texto-g__texto.p-4.jumbotron-15(
           :style="{'top': '80px', 'position': 'relative', 'width':'100%'}"
         )
-          p.mb-0 Por último y no menos importante sobre esta temática relacionada con el riego y el drenaje, dentro de la normatividad establecida para el riego de cultivos se tiene (ver tabla 2):
+          p.mb-0 Por último y no menos importante sobre esta temática relacionada con el riego y el drenaje, dentro de la normatividad establecida para el riego de cultivos se tiene la siguiente normatividad que se puede detallar a continuación:
           
     .row.justify-content-center.align-items-center.mb-3
       .col-lg-12  
