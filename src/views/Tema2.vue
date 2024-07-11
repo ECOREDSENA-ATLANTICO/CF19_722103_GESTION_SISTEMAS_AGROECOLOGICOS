@@ -101,11 +101,19 @@
    
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-12
-        .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5
+        //- .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5
+        //-   .bloque-texto-g__img(
+        //-     :style="{'background-image': `url(${require('@/assets/curso/images/tema2/img_5.png')})`}"
+        //-   )
+        //-   .bloque-texto-g__texto.bloque_w.p-4
+        //-     p.mb-0 El término de estructura hace referencia al tipo de agrupamiento de las partículas del suelo; por lo cual se encuentra de tipo laminar, de bloques, prismáticas, masivas o sin estructura.
+
+
+        .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5.mb-5
           .bloque-texto-g__img(
             :style="{'background-image': `url(${require('@/assets/curso/images/tema2/img_5.png')})`}"
           )
-          .bloque-texto-g__texto.bloque_w.p-4
+          .bloque-texto-g__texto.p-4
             p.mb-0 El término de estructura hace referencia al tipo de agrupamiento de las partículas del suelo; por lo cual se encuentra de tipo laminar, de bloques, prismáticas, masivas o sin estructura.
 
     .row.align-items-center.justify-content-star.mb-1.ps-2(data-aos="zoom-in-down")
