@@ -22,11 +22,11 @@
 
     .row.align-items-center.justify-content-center.mb-5
       .col-lg-8
-        .cajon.color-secundario.p-4.ps-5.bg_18.mb-4.mb-lg-0
+        .cajon.bg_grad-01.p-4.ps-5.bg_18.mb-4.mb-lg-0
           p.m-0 El suelo provee el agua y nutrientes y la atmósfera suministra la luz y el dióxido de carbono y a su vez la planta desprende el oxígeno y el agua, actuando como medio de paso desde el suelo hacia la atmósfera, quedando poca agua en la planta.
 
     .row.align-items-center.justify-content-star.mb-1.ps-2(data-aos="zoom-in-down")
-      .col-lg-10.bg-color-1.px-3.py-2.mb-4
+      .col-lg-10.bg-color-1.px-3.py-2.mb-3
         .h3.mx-5.mb-0.mt-4 Ciclo hídrico:
     
     p.mb-3 Se refiere al movimiento general del agua que va ascendiendo por procesos de evaporación y desciende de igual manera por precipitación sobre la superficie de la tierra y también subterránea. A continuación, se ampliará más sobre cada una de estas etapas:
@@ -56,7 +56,7 @@
                 p.mb-0.mt-2 La evapotranspiración hace referencia a la pérdida de humedad de una superficie, generada por evaporación directa, junto con la pérdida de agua por transpiración. Los procesos de evaporación y transpiración ocurren de manera simultánea, por lo cual la evaporación del suelo con establecimiento de cultivo depende de la radiación solar sobre la superficie, la cual disminuye a medida que el cultivo va desarrollando follaje, el cual sombrea la superficie del suelo.
 
     .row.align-items-center.justify-content-star.mb-1.ps-2(data-aos="zoom-in-down")
-      .col-lg-10.bg-color-1.px-3.py-2.mb-4
+      .col-lg-10.bg-color-1.px-3.py-2.mb-3
         .h3.mx-5.mb-0.mt-4 Influencia del clima
     
     p.mb-3 Los factores climáticos afectan directamente la producción de los cultivos. La temperatura, la radiación solar y el agua en el suelo son los tres principales factores meteorológicos que regulan los procesos ecofisiológicos y metabólicos en las plantas.

@@ -96,7 +96,7 @@
         figcaption.fuente_en_div Nota. 6. TEXTURA DEL SUELO. https://www.fao.org/fishery/docs/CDrom/FAO_Training/FAO_Training/General/x6706s/x6706s06.htm
 
     .row.align-items-center.justify-content-star.mb-1.ps-2(data-aos="zoom-in-down")
-      .col-lg-10.bg-color-1.px-3.py-2.mb-5
+      .col-lg-10.bg-color-1.px-3.py-2.mb-3
         .h3.mx-5.mb-0.mt-4 Estructura
    
     .row.justify-content-center.align-items-center.mb-5
@@ -120,16 +120,15 @@
       .col-lg-10.bg-color-1.px-3.py-2.mb-3
         .h3.mx-5.mb-0.mt-4 Infiltración y capacidad de retención
         
-    .row.align-items-center.justify-content-center.mb-3
+    .row.align-items-center.justify-content-center
       .col-lg-8(data-aos="fade-right") 
         p.mb-3 Como infiltración se conoce el paso del agua a través de la superficie de la tierra, por lo cual a medida que el agua desciende a niveles bajos (inferiores), el volumen de espacio poroso disminuye y a su vez la velocidad con la que el agua penetra en el suelo.
         p.mb-3 Es importante tener en cuenta que en suelos arenosos el agua infiltra con una velocidad mayor que en los suelos arcillosos, por lo cual se deben tener en cuenta a la hora de establecer el sistema de riego para un cultivo.
         p.mb-3 También es importante resaltar que en suelos arcillosos o arenosos (de partículas finas) su retención del agua es mayor, mientras que en suelos arenosos (partículas gruesas) la retención del agua es menor.
-        p.mb-3 Teniendo en cuenta la información anterior se puede inferir que, para efectos del sistema de riego en un cultivo, si el terreno es arcilloso el tiempo de riego es mayor y la frecuencia de riego también, mientras que en suelo arenoso, el tiempo de riego será menor, pero la frecuencia de riego mayor. Siendo así que cobra gran importancia la capacidad de infiltración y retención del agua en un cultivo.
+        p.mb-0 Teniendo en cuenta la información anterior se puede inferir que, para efectos del sistema de riego en un cultivo, si el terreno es arcilloso el tiempo de riego es mayor y la frecuencia de riego también, mientras que en suelo arenoso, el tiempo de riego será menor, pero la frecuencia de riego mayor. Siendo así que cobra gran importancia la capacidad de infiltración y retención del agua en un cultivo.
       .col-12.col-lg-4.mb-5(data-aos="fade-left")
         img(src='@/assets/curso/images/tema2/img_6.png'  alt='')
 
-      
     Separador
     
     #t_2_2.titulo-segundo
@@ -143,7 +142,7 @@
         SlyderA(tipo="b")
 
           .row.justify-content-center.align-items-star.p-3
-            .col-md-5.mb-4.mb-md-0
+            .col-md-5.mb-4.mb-md-0.justify-content-center.flex-column.d-flex
               h4 Agua gravitacional 
               p.mb-4 Es la porción de agua que encontramos en los macroporos (separándolos o no). Esta fracción del agua en el suelo es la que se mueve con ayuda de la fuerza de gravedad, por lo cual tiende a desplazarse hacia abajo. Dicha porción de agua favorece el crecimiento de las plantas cuando se encuentra en el estrato radicular.
 
@@ -152,7 +151,7 @@
                 img(src='@/assets/curso/images/tema2/img_7.png', alt='Texto que describa la imagen')
 
           .row.justify-content-center.align-items-star.p-3
-            .col-md-5.mb-4.mb-md-0
+            .col-md-5.mb-4.mb-md-0.justify-content-center.flex-column.d-flex
               h4 Agua Capilar
               p.mb-4 Es la porción de agua que encontramos en los microporos y que se conserva en el suelo por ayuda de las fuerzas procedentes de la tensión superficial (adhesión y cohesión).
 
@@ -161,7 +160,7 @@
                 img(src='@/assets/curso/images/tema2/img_8.png', alt='Texto que describa la imagen')
 
           .row.justify-content-center.align-items-star.p-3
-            .col-md-5.mb-4.mb-md-0
+            .col-md-5.mb-4.mb-md-0.justify-content-center.flex-column.d-flex
               h4 Fuerza de adhesion
               p.mb-3 Hace referencia a la fuerza que permite la unión entre una partícula y una superficie (molécula de agua y partícula de suelo).
 
@@ -170,7 +169,7 @@
                 img(src='@/assets/curso/images/tema2/img_9.png', alt='Texto que describa la imagen')
                 
           .row.justify-content-center.align-items-star.p-3
-            .col-md-5.mb-4.mb-md-0
+            .col-md-5.mb-4.mb-md-0.justify-content-center.flex-column.d-flex
               h4 Fuerza de Cohesión
               p.mb-3 Es la que permite la unión entre partículas iguales (moléculas de agua). 
 
@@ -179,7 +178,7 @@
                 img(src='@/assets/curso/images/tema2/img_10.png', alt='Texto que describa la imagen')
 
           .row.justify-content-center.align-items-star.p-3
-            .col-md-5.mb-4.mb-md-0
+            .col-md-5.mb-4.mb-md-0.justify-content-center.flex-column.d-flex
               h4 Agua Higroscópica
               p.mb-3 El agua higroscópica no se encuentra disponible para la planta, ya que las raíces no tienen la capacidad de romper la tensión que existe entre las partículas del suelo y las paredes del poro. Cuando el suelo solo cuenta con agua higroscópica se conoce como estado de humedad marchitez permanente.
 

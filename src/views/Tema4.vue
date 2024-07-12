@@ -27,7 +27,7 @@
         p.mb-3 Los métodos superficiales, involucran que el agua penetre desde la superficie a intervalos de tiempo, hasta que la lámina de agua alcance un espesor adecuado para su manejo, permitiendo que el agua penetre en el suelo a medida que ésta escurre sobre el terreno.
 
     .row.align-items-center.justify-content-star.mb-1.ps-2(data-aos="zoom-in-down")
-      .col-lg-10.bg-color-1.px-3.py-2.mb-2
+      .col-lg-10.bg-color-1.px-3.py-2.mb-3
         .h3.mx-5.mb-0.mt-4 Método por surcos
 
     p.mb-3 A continuación, se plantea cómo es este método: 
@@ -35,27 +35,27 @@
     .tarjeta.jumbotron-6.row.align-items-center.justify-content-center.p-5.tarjeta_2.mb-4
       h3.text-center(data-aos="fade-right") Método por surcos
 
-      .col-md-6.align-self-stretch.mb-3
-        .gradiente-verde.tarjeta
-          .contenido
+      .col-md-6.align-self-stretch.d-flex.mb-3.mb-md-0
+        .gradiente-verde.tarjeta.d-flex
+          .contenido.d-flex
             .row    
-              .col-md-6.mb-3 
+              .col-sm-12.col-lg-6.mb-3
                 img(src='@/assets/curso/images/tema4/img_22.png'  alt='La imagen muestra los dos métodos de riesgo, según su primer nivel y segundo nivel.')
-              .col-md-6.mb-3
+              .col-sm-12.col-lg-6.mb-3
                 p.mb-0 
                   b Primero: 
                   | el perímetro humedecido es generalmente menor al espacio que existe entre los surcos; por lo que el área neta de infiltración es inferior al producto del espacio por la longitud del surco.
              
       .col-md-6.align-self-stretch 
-        .gradiente-verde.tarjeta
-          .contenido
+        .gradiente-verde.tarjeta.d-flex
+          .contenido.d-flex
             .row   
-              .col-md-6.mb-3
+              .col-sm-12.col-lg-6.mb-3
                 p.mb-0
                   b Segundo: 
                   | el relieve y la pendiente del terreno, son variables importantes a tener en cuenta, pues en terrenos de relieve plano con pendiente uniforme se utilizan surcos rectos, mientras que en terrenos ondulados, se trazan surcos en contorno o surcos en curvas de nivel. Además, cuando se tiene  pendientes muy altas se trazan surcos en zigzag o por corrugación (surcos pequeños con espaciamiento reducido).
 
-              .col-md-6.mb-3 
+              .col-sm-12.col-lg-6.mb-3
                 img(src='@/assets/curso/images/tema4/img_23.png'  alt='La imagen muestra los dos métodos de riesgo, según su primer nivel y segundo nivel.')
 
     .row.justify-content-justify.align-items-justify.mb-5
@@ -74,7 +74,7 @@
 
     .row.justify-content-center.mb-5
       .col-xl-4.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0
-        .crd_hover_txt(data-aos="flip-left")
+        .crd_hover_txt.clr_dark_green(data-aos="flip-left")
           .crd_hover_txt--img
             figure
               img(src="@/assets/curso/images/tema4/img_111.png", alt="alt")
@@ -83,7 +83,7 @@
             p.mb-0 Compuesto por obras de instalación que transportan el agua desde la captación hasta el cultivo, por lo cual contempla, la captación, red principal, red de distribución, red terciaria, red de avenamiento y drenaje.
 
       .col-xl-4.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0
-        .crd_hover_txt(data-aos="flip-left")
+        .crd_hover_txt.clr_pink(data-aos="flip-left")
           .crd_hover_txt--img
             figure
               img(src="@/assets/curso/images/tema4/img_222.png", alt="alt")
@@ -92,7 +92,7 @@
             p.mb-0 Permite el control exacto del caudal de agua para aplicar por el sistema de riego.
 
       .col-xl-4.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0
-        .crd_hover_txt(data-aos="flip-left")
+        .crd_hover_txt.clr_green(data-aos="flip-left")
           .crd_hover_txt--img
             figure
               img(src="@/assets/curso/images/tema4/img_333.png", alt="alt")
@@ -120,7 +120,7 @@
           h5 Figura 7.
           span Sistemas de riego por aspersión
 
-        .tarjeta.color-acento-contenido-tarjeta.p-4.mb-5
+        .tarjeta.bg10.p-4.mb-5
           .row.justify-content-center.align-items-center.p-3  
 
             .col-lg-4(data-aos="fade-left")
@@ -164,7 +164,7 @@
       .col-lg-10.bg-color-1.px-3.py-2.mb-3
         .h3.mx-5.mb-0.mt-4 Método por goteo
 
-    .row.align-items-center.justify-content-center.mb-5
+    .row.align-items-center.justify-content-center.tarjeta.tarjeta--gris.p-4
       .col-lg-5(data-aos="fade-right") 
         p.mb-3 Consiste en aplicar el agua en gotas, directamente en el área de plantación. El agua se infiltra al mismo tiempo que se aplica, de manera continua o a intervalos. Mediante este método el agua se aplica según los requerimientos del cultivo; sin embargo, requiere de tecnología que permita determinar la frecuencia y cantidad de agua que se debe aplicar.
         
@@ -179,7 +179,7 @@
     .row.align-items-center.justify-content-center.mb-5
       p.mb-4 La selección del método de riego depende del tipo de cultivo, tipo de suelo, topografía, economía, el clima, la mano de obra, así como el manejo del riego y parcela. Además del grado de sistematización del terreno, pues seleccionar el método de riego implica la toma de decisiones de acuerdo a las condiciones del predio donde se encuentra la plantación y sistematización del proceso. A continuación, se pueden consultar los criterios de selección con más detalle:
       
-      .tarjeta.bg_grad-02.p-3.mb-5(data-aos="zoom-in-up")
+      .tarjeta.bg10.p-3.mb-5(data-aos="zoom-in-up")
         SlyderA(tipo="b")
 
           .row.justify-content-center.align-items-star
@@ -335,44 +335,49 @@
           img(src='@/assets/curso/images/tema4/img_15.png', alt='Texto que describa la imagen')         
 
       .col-lg-6
-        p.mb-2 Dentro de las variables del sistema de riego de cultivos se tiene:
+        p.mb-4 Dentro de las variables del sistema de riego de cultivos se tiene:
+
 
         .tarjeta-avatar-b.mb-3
           .tarjeta-avatar-b__img
-            img.img-t.m-auto(src='@/assets/curso/images/tema4/img_16.svg', alt='')
-          .tarjeta.tarjeta--gris.shadow-sm
-            .p-2
-              p.mt-3 
-                span.text-bold Caudal, 
+            img(src='@/assets/curso/images/tema4/img_16.svg' alt='AvatarTop')
+          .tarjeta.tarjeta--gris
+            .p-4
+              p.mb-0 
+                b Caudal, 
                 | cantidad de agua en litros que proporciona la fuente de abastecimiento en una unidad de tiempo L/s, es determinado medianteaforos, ya que permite medir la cantidad de agua que pasa en un tiempo determinado.
-        
+
+
         .row.align-items-center.justify-content-center
           .col-lg-4 
-            .tarjeta-avatar-b.mb-2
+            .tarjeta-avatar-b.mb-5
               .tarjeta-avatar-b__img
-                img.img-t.m-auto(src='@/assets/curso/images/tema4/img_17.svg', alt='')
-              .tarjeta.tarjeta--gris.shadow-sm
-                .p-2
-                  p.text-center.mt-3
-                    span.text-bold Humedad. 
-                    
+                img(src='@/assets/curso/images/tema4/img_17.svg' alt='')
+              .tarjeta.tarjeta--gris
+                .p-4
+                  p.mb-0 
+                    b Humedad.
+                   
+          .col-lg-4
+            .tarjeta-avatar-b.mb-5
+                .tarjeta-avatar-b__img
+                  img(src='@/assets/curso/images/tema4/img_18.svg' alt='')
+                .tarjeta.tarjeta--gris
+                  .p-4
+                    p.mb-0
+                      b pH. 
+            
           .col-lg-4 
-            .tarjeta-avatar-b.mb-2
+            .tarjeta-avatar-b.mb-5
               .tarjeta-avatar-b__img
-                img.img-t.m-auto(src='@/assets/curso/images/tema4/img_18.svg', alt='')
-              .tarjeta.tarjeta--gris.shadow-sm
-                .p-2
-                  p.text-center.mt-3
-                    span.text-bold pH. 
-                              
-          .col-lg-4 
-            .tarjeta-avatar-b.mb-2
-              .tarjeta-avatar-b__img
-                img.img-t.m-auto(src='@/assets/curso/images/tema4/img_19.svg', alt='')
-              .tarjeta.tarjeta--gris.shadow-sm
-                .p-2
-                  p.text-center.mt-3
-                    span.text-bold CE. 
+                img(src='@/assets/curso/images/tema4/img_19.svg' alt='')
+              .tarjeta.tarjeta--gris
+                .p-4
+                  p.mb-0
+                    b CE.
+
+
+
 
 
     .row.align-items-center.justify-content-star.mb-1.ps-2(data-aos="zoom-in-down")
@@ -383,11 +388,12 @@
     p.mb-5 Es necesario reconocer la demanda hídrica del cultivo y la relación con la pluviometría natural, con el fin de establecer la necesidad de riego complementario, con el que se debe satisfacer la máxima evapotranspiración del cultivo y así mismo lograr una productividad alta y estable, con calidad de cosechas.
       
     //- .bg10.pt-5.mb-4
-    .row.justify-content-end.align-items-center.bg10
-      .col-lg-10.align-self-center.mb-4.mb-lg-0
-        p.ps-5 Los datos iniciales a tener en cuenta son el consumo del cultivo durante todo el ciclo, consumo diario en periodos críticos, cuantificación del déficit, probabilidad de ocurrencia del déficit y estimación de pérdidas.
-        p.ps-5 La necesidad de agua del cultivo se refiere a la cantidad del recurso hídrico requerido para compensar la pérdida de agua por evaporación y transpiración (evapotranspiración). Por ende, un cultivo alcanza el potencial cuando obtiene el agua necesaria para el desarrollo en las condiciones óptimas de manejo.
-      .col-lg-2(data-aos="fade-left")
+    .row.justify-content-end.bg10
+      .col-lg-10.mb-4.mb-lg-0
+        .p-4
+          p.mb-0 Los datos iniciales a tener en cuenta son el consumo del cultivo durante todo el ciclo, consumo diario en periodos críticos, cuantificación del déficit, probabilidad de ocurrencia del déficit y estimación de pérdidas.
+          p.mb-0 La necesidad de agua del cultivo se refiere a la cantidad del recurso hídrico requerido para compensar la pérdida de agua por evaporación y transpiración (evapotranspiración). Por ende, un cultivo alcanza el potencial cuando obtiene el agua necesaria para el desarrollo en las condiciones óptimas de manejo.
+      .col-6.col-lg-2.mx-auto.align-self-end(data-aos="fade-left")
         figure
           img.img-t(src='@/assets/curso/images/tema4/img_20.png', alt='').mx-auto 
     

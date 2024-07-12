@@ -221,8 +221,15 @@
   background-size: 100% 100%
   @media (max-width: $bp-max-md) 
     background-image: none
-    background-color: #EFF5D6 
-    
+    background-color: #FFE9E1
+
+  .slyder-a__bullets__item
+    background-color:#FFA686
+    opacity: 0.5
+    &--active
+      background-color: #FFA686
+      opacity: 1
+
 .tarjeta.color-acento-contenido 
   background-color: #FFD3C3
   box-shadow: 2px 1px 4px 1px #cdcdcd
@@ -641,7 +648,7 @@
   .tarjeta--azul
     background-color: #F6F6F6
   .acordion__activo
-    background-color: #E2EACB!important
+    background-color: #EFF5D6!important
 
 .img-infografica.color-secundario .img-infografica__item__dot::before, .img-infografica.color-secundario .img-infografica__item__dot::after, .img-infografica.color-secundario .img-infografica-b__item__dot::before, .img-infografica.color-secundario .img-infografica-b__item__dot::after, .img-infografica-b.color-secundario .img-infografica__item__dot::before, .img-infografica-b.color-secundario .img-infografica__item__dot::after, .img-infografica-b.color-secundario .img-infografica-b__item__dot::before, .img-infografica-b.color-secundario .img-infografica-b__item__dot::after 
   background-color: #01F6FF
@@ -758,14 +765,7 @@
 
     @media (max-width: 992px)
       padding: 20px
-    @media (max-width: 768px)
-      padding: 20px
-    @media (max-width: 576px)
-      padding: 20px
-    @media (max-width: 412px)
-      padding: 20px
-    @media (max-width: 397px)
-      padding: 20px
+      align-items: start
 
     .row
       margin-left: -60px
@@ -773,22 +773,6 @@
       @media (max-width: 992px)
         margin-left: 0
         margin-right: 0
-      @media (max-width: 768px)
-        margin-left: 0
-        margin-right: 0
-      @media (max-width: 576px)
-        margin-left: 0
-        margin-right: 0
-      @media (max-width: 412px)
-        margin-left: 0
-        margin-right: 0
-      @media (max-width: 397px)
-        margin-left: 0
-        margin-right: 0
-        
-      .col
-        align-items: center;
-        display: flex;
 
 
 .tarjeta_2
@@ -799,34 +783,47 @@
       font-size: 0.91em
       
       @media (max-width: 992px)
-        flex-direction: column-reverse;
+        flex-direction: column-reverse
         margin-right: 0
-        font-size: 16px
+
 
       @media (max-width: 768px)
-        flex-direction: column-reverse;
+        flex-direction: column-reverse
         margin-right: 0
-        font-size: 16px
-
         
       @media (max-width: 576px)
-        flex-direction: column-reverse;
+        flex-direction: column-reverse
         margin-right: 0
-        font-size: 16px
-
-        
-      @media (max-width: 412px)
-        flex-direction: column-reverse;
-        margin-right: 0
-        font-size: 16px
-
-        
-      @media (max-width: 397px)
-        flex-direction: column-reverse;
-        margin-right: 0
-        font-size: 16px
-
 
       
+      @media (max-width: 412px)
+        flex-direction: column-reverse
+        margin-right: 0
+        
+      @media (max-width: 397px)
+        flex-direction: column-reverse
+        margin-right: 0
+      
+.bg_grad-01.cajon:before
+  background-color:#ADCE32 
 
+.clr_dark_green
+  .crd_hover_txt--body
+    background-color: #0B481E
+    h4
+        color:#fff
+    p
+      color:#fff
 
+.clr_pink
+  .crd_hover_txt--body
+    background-color: #FFA686
+
+.clr_green
+  .crd_hover_txt--body
+    background-color: #ADCE32
+
+.custom
+  .slyder-f__main 
+    .horizontal-scroll 
+      align-items: center !important
