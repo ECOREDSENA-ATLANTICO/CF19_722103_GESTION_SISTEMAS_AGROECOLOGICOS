@@ -32,11 +32,32 @@
 
     p.mb-3 A continuación, se plantea cómo es este método: 
 
-    .row.align-items-center.justify-content-center
-      .col-12.col-lg-12.mb-5(data-aos="fade-left")
-        img.ocultar(src='@/assets/curso/images/tema4/img_3.png'  alt='La imagen muestra los dos métodos de riesgo, según su primer nivel y segundo nivel.')
-        img.mostrar(src='@/assets/curso/images/tema4/img_3_1.png'  alt='La imagen muestra los dos métodos de riesgo, según su primer nivel y segundo nivel.')
-        
+    .tarjeta.jumbotron-6.row.align-items-center.justify-content-center.p-5.tarjeta_2.mb-4
+      h3.text-center(data-aos="fade-right") Método por surcos
+
+      .col-md-6.align-self-stretch.mb-3
+        .gradiente-verde.tarjeta
+          .contenido
+            .row    
+              .col-md-6.mb-3 
+                img(src='@/assets/curso/images/tema4/img_22.png'  alt='La imagen muestra los dos métodos de riesgo, según su primer nivel y segundo nivel.')
+              .col-md-6.mb-3
+                p.mb-0 
+                  b Primero: 
+                  | el perímetro humedecido es generalmente menor al espacio que existe entre los surcos; por lo que el área neta de infiltración es inferior al producto del espacio por la longitud del surco.
+             
+      .col-md-6.align-self-stretch 
+        .gradiente-verde.tarjeta
+          .contenido
+            .row   
+              .col-md-6.mb-3
+                p.mb-0
+                  b Segundo: 
+                  | el relieve y la pendiente del terreno, son variables importantes a tener en cuenta, pues en terrenos de relieve plano con pendiente uniforme se utilizan surcos rectos, mientras que en terrenos ondulados, se trazan surcos en contorno o surcos en curvas de nivel. Además, cuando se tiene  pendientes muy altas se trazan surcos en zigzag o por corrugación (surcos pequeños con espaciamiento reducido).
+
+              .col-md-6.mb-3 
+                img(src='@/assets/curso/images/tema4/img_23.png'  alt='La imagen muestra los dos métodos de riesgo, según su primer nivel y segundo nivel.')
+
     .row.justify-content-justify.align-items-justify.mb-5
       p.mb-3 Denominado también pro desborde o anegamiento, el cual consiste en dejar escurrir el agua desde canales, los cuales se trazan por los sectores más altos. Se humedece el suelo al tiempo que el agua cubre la superficie.
       p.mb-5 Las diferencias en las características topográficas configuran las variables de trazado y las dimensiones de las melgas (faja de terreno delimitada por bordes) (ver figura 6).
