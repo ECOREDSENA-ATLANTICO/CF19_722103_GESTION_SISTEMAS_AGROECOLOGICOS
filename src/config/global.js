@@ -115,6 +115,11 @@ export default {
         download: 'downloads/722103_CF19_DU.pdf',
       },
       {
+        icono: 'fas fa-download',
+        titulo: 'Descargar material',
+        download: 'downloads/material.zip',
+      },
+      {
         icono: 'far fa-registered',
         titulo: 'Créditos',
         nombreRuta: 'creditos',
