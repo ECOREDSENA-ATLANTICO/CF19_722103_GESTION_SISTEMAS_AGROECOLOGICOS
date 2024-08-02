@@ -22,7 +22,9 @@
       .tarjeta.tarjeta--gris.p-4
         .row.justify-content-center.align-items-center.p-3  
           .col-lg-5(data-aos="fade-right") 
-            img(src='@/assets/curso/images/tema1/img_1.png'  alt='La imagen muestra, el manejo del agua como recurso hídrico para las plantas.')
+            figure
+              img(src='@/assets/curso/images/tema1/img_1.png'  alt='La imagen muestra, el manejo del agua como recurso hídrico para las plantas.')
+            //- figcaption https://as2.ftcdn.net/v2/jpg/04/95/92/85/1000_F_495928559_KsnBOuU1AmLYQVQv9Am1jB2dXgwmYHjk.jpg
 
           .col-lg-7(data-aos="fade-left")
             ul.lista-ul
@@ -120,6 +122,7 @@
         template(v-slot:imagen)
           figure
             img(src='@/assets/curso/images/tema1/img_4.svg'  alt='La imagen muestra cómo funcionan en las cuencas hidrográficas el ciclo del agua, como son la evaporación, la condensación, precipitación, infiltración y escorrentía. En la parte inferior se explica cada proceso del ciclo del agua.')
+          //- figcaption Figura 2. Ciclo del agua
 
         .tarjeta.color-acento-botones.p-3(x="36.8%" y="69.5%" numero="+")
           .h5.mb-2 Infiltración

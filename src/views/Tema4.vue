@@ -239,7 +239,7 @@
         .tarjeta.tarjeta--gris.shadow-sm
           .p-2
             p.mt-3 
-              span.text-bold Tuberías, 
+              span.text-bold Tuberías 
               | sistema de conducción del agua para riego.
 
     
@@ -249,7 +249,7 @@
         .tarjeta.tarjeta--gris.shadow-sm
           .p-2
             p.mt-3 
-              span.text-bold Válvulas de aire,
+              span.text-bold Válvulas de aire 
               | que permiten eliminar el aire del sistema de riego.
     
       .tarjeta-avatar-b.mb-3
@@ -258,7 +258,7 @@
         .tarjeta.tarjeta--gris.shadow-sm
           .p-2
             p.mt-3 
-              span.text-bold Filtros,
+              span.text-bold Filtros 
               | son equipos que se instalan en el sistema de riego para eliminar impurezas del agua que puedan obstruir la salida del agua a través del emisor.
     
       .tarjeta-avatar-b.mb-3
@@ -267,7 +267,7 @@
         .tarjeta.tarjeta--gris.shadow-sm
           .p-2
             p.mt-3 
-              span.text-bold Accesorios en PVC, 
+              span.text-bold Accesorios en PVC 
               | codos, T, adaptador (macho y hembra), roscas, uniones.
     
       .tarjeta-avatar-b.mb-3
@@ -276,7 +276,7 @@
         .tarjeta.tarjeta--gris.shadow-sm
           .p-2
             p.mt-3 
-              span.text-bold Válvulas de paso, 
+              span.text-bold Válvulas de paso 
               | utilizadas para sectorizar el sistema de riego.
     
       .tarjeta-avatar-b.mb-3
@@ -285,7 +285,7 @@
         .tarjeta.tarjeta--gris.shadow-sm
           .p-2
             p.mt-3 
-              span.text-bold Inyectores de agroquímicos, 
+              span.text-bold Inyectores de agroquímicos 
               | se utilizan cuando se va a aplicar fertilizantes o agroquímicos mediante sistema de riego.
     
       .tarjeta-avatar-b.mb-3
@@ -294,7 +294,7 @@
         .tarjeta.tarjeta--gris.shadow-sm
           .p-2
             p.mt-3 
-              span.text-bold Bombas, 
+              span.text-bold Bombas 
               | equipo de bombeo compuesto por motor (combustión o eléctrico) y bomba.
         
       .tarjeta-avatar-b.mb-3
@@ -303,7 +303,7 @@
         .tarjeta.tarjeta--gris.shadow-sm
           .p-2
             p.mt-3 
-              span.text-bold Válvulas de alivio, 
+              span.text-bold Válvulas de alivio 
               | sirve para expulsar la presión para proteger el sistema de rupturas de la tubería o daño de la bomba.    
       
       .tarjeta-avatar-b.mb-3
@@ -312,7 +312,7 @@
         .tarjeta.tarjeta--gris.shadow-sm
           .p-2
             p.mt-3 
-              span.text-bold Reductor de presión, 
+              span.text-bold Reductor de presión 
               | son instalados en las tuberías secundarias, para reducir presiones altas.    
       
       .tarjeta-avatar-b.mb-3
@@ -321,7 +321,7 @@
         .tarjeta.tarjeta--gris.shadow-sm
           .p-2
             p.mt-3 
-              span.text-bold Manómetros, 
+              span.text-bold Manómetros 
               | aparatos que ayudan a medir la presión en diferentes puntos y así poder controlar el funcionamiento del sistema.
               
 
@@ -345,7 +345,7 @@
             .p-4
               p.mb-0 
                 b Caudal, 
-                | cantidad de agua en litros que proporciona la fuente de abastecimiento en una unidad de tiempo L/s, es determinado medianteaforos, ya que permite medir la cantidad de agua que pasa en un tiempo determinado.
+                | cantidad de agua en litros que proporciona la fuente de abastecimiento en una unidad de tiempo L/s, es determinado mediante aforos, ya que permite medir la cantidad de agua que pasa en un tiempo determinado.
 
 
         .row.align-items-center.justify-content-center

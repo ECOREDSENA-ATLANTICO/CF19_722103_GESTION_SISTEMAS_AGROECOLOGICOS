@@ -39,7 +39,7 @@
               .col-lg-3
                 img(src='@/assets/curso/images/tema3/img_2.png'  alt='')
               .col-lg-9
-                p.mb-0.mt-2 Proceso mediante el cual un líquido es convertido en vapor de agua y removido a la superficie a través de la evaporación. Dicho proceso sucede cuando el agua se evapora de las fuentes superficiales (ríos, lagunas, lagos, suelos, vegetación humedad) con ayuda de la energía solar, quien ayuda al cambiar de estado líquidos a estado gaseoso las moléculas de agua. En dicho proceso interviene la radiación solar, la temperatura del aire, la humedad relativa u la velocidad del viento.
+                p.mb-0.mt-2 Proceso mediante el cual un líquido es convertido en vapor de agua y removido a la superficie a través de la evaporación. Dicho proceso sucede cuando el agua se evapora de las fuentes superficiales (ríos, lagunas, lagos, suelos, vegetación humedad) con ayuda de la energía solar, quien ayuda al cambiar de estado líquidos a estado gaseoso las moléculas de agua. En dicho proceso interviene la radiación solar, la temperatura del aire, la humedad relativa y la velocidad del viento.
                 p.mb-0 <br> No obstante, cuando la superficie de evaporación es la superficie del suelo, el nivel de sombreado que proporciona el follaje del cultivo y la cantidad de agua son otras variables a tener en cuenta.
 
             .row(titulo="Transpiración")
