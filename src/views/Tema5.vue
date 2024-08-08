@@ -36,7 +36,8 @@
           span Drenaje superficial
         
         img(src='@/assets/curso/images/tema5/img_2.png'  alt='La imagen muestra el diseño de un Drenaje superficial, para el manejo de la topografía, la cubierta vegetal y el uso de la tierra.')
-
+        figcaption Nota. SENA (2022).
+        
     .row.justify-content-center.align-items-center.mb-3
       .col-lg-12        
         .tarjeta.mb-3(data-aos="zoom-in-up")

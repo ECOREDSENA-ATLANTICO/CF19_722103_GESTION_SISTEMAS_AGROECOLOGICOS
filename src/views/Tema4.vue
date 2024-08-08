@@ -135,6 +135,7 @@
             
             .col-lg-8(data-aos="fade-right") 
               img(src='@/assets/curso/images/tema4/img_7.png'  alt='La imagen muestra un Sistemas de riego por aspersión, según el tipo de red de tuberías.')
+              figcaption Nota. SENA (2022).
 
         .tarjeta.tarjeta--gris.p-4
           .row.justify-content-center.align-items-center.p-3  
